@@ -7,11 +7,11 @@
 <script>
 function downloadhen()
 {
-	window.location.href = 'http://akkushell.github.io/492/492/' + fwVersion + '/PS3HEN.p3t';
+	window.location.href = 'http://akkushell.github.io/hen492/' + fwVersion + '/PS3HEN.p3t';
 }
 function downloadhenD()
 {
-	window.location.href = 'http://akkushell.github.io/492/492/' + fwVersion + 'D/PS3HEN.p3t';
+	window.location.href = 'http://akkushell.github.io/hen492/' + fwVersion + 'D/PS3HEN.p3t';
 }
 
 function initROP(init)
@@ -93,7 +93,7 @@ function initROP(init)
 		if((j2===jump_2)&&(j1===jump_1)&&(x===xtra_data)&&(sf===stack_frame))
 		{
 			if(t_out!==0){clearTimeout(t_out);}
-			showResult(hr+"<h1><b><font color=%22386E38%22>Akku's HEN installer initialized successfully.</font></b></h1><h3><b><font color=%22000000%22><span style='color:#000000;'>You can now launch HEN installer!</span></b></h3>");
+			showResult(hr+"<h1><b><span style='color:#386E38;'>Akku's HEN installer initialized successfully.</span></b></h1><h3><b><span style='color:#000000;'>You can now launch HEN installer!</span></b></h3>");
 			enable_trigger();
 		}
 		else

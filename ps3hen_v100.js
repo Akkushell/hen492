@@ -32,7 +32,7 @@ var start_x='xxxx';
 
 // 20230315 HEN installer bytes to signify installer running
 // The HEN payload will check this value so it knows whether or not to remove boot_plugins.txt
-var hen_installer_bytes=0x48454E00;
+var hen_installer_bytes=0x48454E00; //'HEN\0'	
 
 var usb_sp='/dev_hdd0/theme/PS3HEN.p3t';
 var mount_path='/dev_blind';
