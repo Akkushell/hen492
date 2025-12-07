@@ -2382,6 +2382,7 @@ function dex()
 			break;
 			
 		case "4.92":
+			if(document.getElementById('dex').checked===true)
 			{
 				alert('DEX Payload Will Now Download. Overwrite This File When Prompted!');
 				downloadhenD();
