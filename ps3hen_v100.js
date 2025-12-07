@@ -2382,11 +2382,16 @@ function dex()
 			break;
 			
 		case "4.92":
-			//if(document.getElementById('dex').checked===true){loaddex_492();}//alert("calling loaddex_492");
-			//else {loadcex_492();}
-			//loadcex_492();
-			//disable_trigger();
+			{
+				alert('DEX Payload Will Now Download. Overwrite This File When Prompted!');
+				downloadhenD();
+				loaddex_492();
+			}
+			//alert("calling loaddex_492");
+			else {loadcex_492();}
+			disable_trigger();
 			break;
+			
 		
 		default:
 			break;
