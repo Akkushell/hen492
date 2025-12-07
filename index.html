@@ -120,7 +120,7 @@ function initROP(init)
 function triggerX()
 {
 		clearLogEntry();
-		showResult(hr+"<h2><b><span style='color:#000000;'>Installing Akku's HEN...</span></b></h2>");
+		showResult(hr+"<h2><b><span style='color:red;'>Installing Akku's HEN...</span></b></h2>");
 		disable_all();
 		setTimeout(trigger,1000,jump_1_addr);
 		setTimeout(rop_exit_hen,5000,hr+"<h1><b><font color=%22386E38%22>Akku's HEN is successfully installed</font></b></h1>","<h1><b><font color='red'>Akku's HEN Failure! Restart PS3 and retry!</font></b></h1>");
